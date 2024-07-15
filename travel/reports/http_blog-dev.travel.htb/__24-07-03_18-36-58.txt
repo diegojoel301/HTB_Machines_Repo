@@ -1,0 +1,16 @@
+# Dirsearch started Wed Jul  3 18:37:09 2024 as: /home/diegojoel301/.local/bin/dirsearch -u http://blog-dev.travel.htb/
+
+301   170B   http://blog-dev.travel.htb/.git    -> REDIRECTS TO: http://blog-dev.travel.htb/.git/
+200    13B   http://blog-dev.travel.htb/.git/COMMIT_EDITMSG
+200    73B   http://blog-dev.travel.htb/.git/description
+200    23B   http://blog-dev.travel.htb/.git/HEAD
+200    92B   http://blog-dev.travel.htb/.git/config
+200   297B   http://blog-dev.travel.htb/.git/index
+200   240B   http://blog-dev.travel.htb/.git/info/exclude
+200   153B   http://blog-dev.travel.htb/.git/logs/HEAD
+301   170B   http://blog-dev.travel.htb/.git/logs/refs    -> REDIRECTS TO: http://blog-dev.travel.htb/.git/logs/refs/
+301   170B   http://blog-dev.travel.htb/.git/logs/refs/heads    -> REDIRECTS TO: http://blog-dev.travel.htb/.git/logs/refs/heads/
+200   153B   http://blog-dev.travel.htb/.git/logs/refs/heads/master
+301   170B   http://blog-dev.travel.htb/.git/refs/heads    -> REDIRECTS TO: http://blog-dev.travel.htb/.git/refs/heads/
+200    41B   http://blog-dev.travel.htb/.git/refs/heads/master
+301   170B   http://blog-dev.travel.htb/.git/refs/tags    -> REDIRECTS TO: http://blog-dev.travel.htb/.git/refs/tags/
