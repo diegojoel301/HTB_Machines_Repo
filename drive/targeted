@@ -1,0 +1,18 @@
+# Nmap 7.93 scan initiated Sat Dec  7 15:07:36 2024 as: nmap -p22,80,3000 -sCV -oN targeted 10.10.11.235
+Nmap scan report for 10.10.11.235
+Host is up (0.13s latency).
+
+PORT     STATE    SERVICE VERSION
+22/tcp   open     ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.9 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 275a9fdb91c316e57da60d6dcb6bbd4a (RSA)
+|   256 9d076bc847280df29f81f2b8c3a67853 (ECDSA)
+|_  256 1d30349f797369bdf667f3343c1ff94e (ED25519)
+80/tcp   open     http    nginx 1.18.0 (Ubuntu)
+|_http-title: Did not follow redirect to http://drive.htb/
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+3000/tcp filtered ppp
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Dec  7 15:07:49 2024 -- 1 IP address (1 host up) scanned in 13.18 seconds

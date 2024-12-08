@@ -1,0 +1,56 @@
+Target: http://drive.htb/
+
+[15:53:02] Starting: 
+[15:53:06] 302 -    0B  - /.git/hooks/update  ->  /login/
+[15:53:27] 302 -    0B  - /bitrix/modules/updater.log  ->  /login/
+[15:53:27] 302 -    0B  - /bitrix/modules/updater_partner.log  ->  /login/
+[15:53:30] 302 -    0B  - /confluence/plugins/servlet/oauth/update-consumer-info  ->  /login/
+[15:53:30] 301 -    0B  - /contact  ->  /contact/
+[15:53:35] 200 -    2KB - /favicon.ico
+[15:53:37] 301 -    0B  - /home  ->  /home/
+[15:53:38] 302 -    0B  - /install/update.log  ->  /login/
+[15:53:41] 301 -    0B  - /login  ->  /login/
+[15:53:41] 200 -    2KB - /login/
+[15:53:41] 301 -    0B  - /logout  ->  /logout/
+[15:53:42] 302 -    0B  - /logout/  ->  /
+[15:53:51] 301 -    0B  - /register  ->  /register/
+[15:53:51] 301 -    0B  - /reports  ->  /reports/
+[15:53:55] 301 -    0B  - /subscribe  ->  /subscribe/
+[15:53:57] 301 -    0B  - /upload  ->  /upload/
+[15:53:57] 302 -    0B  - /upload.asp  ->  /login/
+[15:53:57] 302 -    0B  - /upload.aspx  ->  /login/
+[15:53:57] 302 -    0B  - /upload.htm  ->  /login/
+[15:53:57] 302 -    0B  - /upload.cfm  ->  /login/
+[15:53:57] 302 -    0B  - /upload.html  ->  /login/
+[15:53:57] 302 -    0B  - /upload.php  ->  /login/
+[15:53:57] 302 -    0B  - /upload.php3  ->  /login/
+[15:53:57] 302 -    0B  - /upload.shtm  ->  /login/
+[15:53:57] 302 -    0B  - /upload/  ->  /login/
+[15:53:57] 302 -    0B  - /upload/b_user.xls  ->  /login/
+[15:53:57] 302 -    0B  - /upload/2.php  ->  /login/
+[15:53:57] 302 -    0B  - /upload/loginIxje.php  ->  /login/
+[15:53:57] 302 -    0B  - /upload/b_user.csv  ->  /login/
+[15:53:57] 302 -    0B  - /upload/1.php  ->  /login/
+[15:53:57] 302 -    0B  - /upload/test.php  ->  /login/
+[15:53:57] 302 -    0B  - /upload/test.txt  ->  /login/
+[15:53:57] 302 -    0B  - /upload/upload.php  ->  /login/
+[15:53:57] 302 -    0B  - /upload_admin  ->  /login/
+[15:53:57] 302 -    0B  - /upload2.php  ->  /login/
+[15:53:57] 302 -    0B  - /uploaded/  ->  /login/
+[15:53:57] 302 -    0B  - /upload_backup/  ->  /login/
+[15:53:57] 302 -    0B  - /uploader  ->  /login/
+[15:53:57] 302 -    0B  - /upload_file.php  ->  /login/
+[15:53:57] 302 -    0B  - /uploadfile.asp  ->  /login/
+[15:53:57] 302 -    0B  - /uploader/  ->  /login/
+[15:53:57] 302 -    0B  - /uploadfiles.php  ->  /login/
+[15:53:57] 302 -    0B  - /uploader.php  ->  /login/
+[15:53:57] 302 -    0B  - /uploadfile.php  ->  /login/
+[15:53:57] 302 -    0B  - /uploadify  ->  /login/
+[15:53:57] 302 -    0B  - /uploadify/  ->  /login/
+[15:53:57] 302 -    0B  - /uploadify.php  ->  /login/
+[15:53:57] 302 -    0B  - /uploads  ->  /login/
+[15:53:57] 302 -    0B  - /uploads.php  ->  /login/
+[15:53:57] 302 -    0B  - /uploads/  ->  /login/
+[15:53:57] 302 -    0B  - /uploads/affwp-debug.log  ->  /login/
+[15:53:57] 302 -    0B  - /uploads/dump.sql  ->  /login/
+[15:53:57] 302 -    0B  - /uploads_admin  ->  /login/

@@ -1,0 +1,10 @@
+1. IDOR
+    /download/1
+    /download/0 (Aqui estan las creds)
+
+2. FTP => SSH
+
+    nathan:Buck3tH4TF0RM3!
+
+3. Privesc con Pwnkit
+    https://github.com/ly4k/PwnKit/blob/main/PwnKit

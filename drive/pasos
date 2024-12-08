@@ -1,0 +1,53 @@
+
+De estos ficheros:
+    http://drive.htb/100/getFileDetail/
+
+    Existen: 
+        (Unauthorized = 401)
+        - 101
+        - 99
+        - 98
+        - 79
+        (OK = 200)
+        - 100
+
+De estos grupos:
+    http://drive.htb/48/getGroupDetail/
+
+    Existen:
+        (Unauthorized = 401)
+        - 28
+        - 39
+        - 40
+        - 42
+        (OK = 200)
+        - 47 (prueba)
+        - 48 (test)
+
+
+Endpoints:
+    /x/getFileDetail/   (Para ver el contenido)
+    /x/editContent      (Para editar contenido)
+    /x/delete           (Para borrar)
+    /x/update           (Para actualizar nombre del fichero y grupos)
+
+    (x) /117/block/     (Ver el fichero?)
+
+    /createGroup/       (Para crear grupo)
+    /showMyGroups/      (Para ver mis grupos)
+    /x/getGroupDetail/  (Detalles del grupo)
+    /x/deleteGroup/     (Borrar grupo)
+    /x/editGroup        (Editar grupo)
+
+Usuarios en plataforma:
+    admin
+    jamesMason
+    martinCruz
+    tomHands
+    crisDisel
+
+
+if not logged && regex(query,  "^upload")
+	redirect('login')
+
+El /x/block tiene el IDOR y de ahi accedes a aquello que te salia 401 cuando ibas por /x/getFileDetail/

